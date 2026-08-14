@@ -1,2 +1,0 @@
-# Kroziers Castle
-uo server
