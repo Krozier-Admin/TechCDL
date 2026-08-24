@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Student Management System 2.exe" version="1.0.0.44" publicKeyToken="ae3e6b5a51746e9e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Student Management System 2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Student Management System 2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="589824">
+      <assemblyIdentity name="MaterialSkin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SXbed8MkGmQfanDm6T2ETMidwxRs8UgP1cmCVlFuzwU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Student Management System 2.exe" size="50913728">
+      <assemblyIdentity name="Student Management System 2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ToKMmJ9QE3OI6dgh0gpYGH3NRQUdp7JodfrmbR9hYrE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\wheelbrakescam.jpg" size="24116">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uxT5qBW/Eu+TuhH0hD1V3eGYu5cjoC/NebYbbaZ7JsI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Student Management System 2.exe.config" size="2016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xKVF+/I1xe+BWu7s6aqTQknVq1S6X/C3SM44K208xQU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=MURDERINC\krozi" issuerKeyHash="4e3ab3d037a6a67eed5dca48ee30451229c02e31" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bCeru3/K733T+E15zp5PyfH258o7bxWKFhU+5FlvJV8=</DigestValue></Reference></SignedInfo><SignatureValue>QHhw5/qbBeAiALCzmL+t3CdnrRW5tK/SqJSWe8vWeLjwmkx6f+1iDd6y4WeE8fGrg5EHfEWCndv3Ks1KdC404vPPHe4maj9rMlZJ0GIXa0Tz1CybOp/yO/XxaXUG26GmBx/j3BadR9FwEWNTHs0HxEnndxxxs7gdN5kobBMSvZs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xl/aR9LokUE+Ip0Kk11lyuVSTptq1X9IVJlEmZQDNCyAURsM0DcF2qtvNBxAwwkjgFenBi0osmd/zaxm+KSSq9F0n6EIGDMH3ihzHhH8X+aSLbRfEpA23AhZd2u5pQ55HntJ1ihprd42OKnn4gKUsptWeHdgOXxCs2ashRy4e0k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5f256f59e43e15168a156f3bcae7f6f1c94f9ece794df8d37defca7fbbab276c" Description="" Url=""><as:assemblyIdentity name="Student Management System 2.exe" version="1.0.0.44" publicKeyToken="ae3e6b5a51746e9e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MURDERINC\krozi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fLT1RrG1z5DGTuZz8ri4AjL+2qucxVAbYTKPgKVR4tc=</DigestValue></Reference></SignedInfo><SignatureValue>Mbttyk1353/ycD74m7CpClIYyTA3gfSu98rSl3pgE7wIQcnwcJrmxLhHTH8ZoXV5MrPlSh2cNIYypcsWcfVX2G5T2OOG6x4qqZkeho5peYtJbrcZZspiXBhI87NA6kocMJsGt2MbBW4OjxHLkwgpVQ5KcS1+8O9PH6AEdRa7DJ8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xl/aR9LokUE+Ip0Kk11lyuVSTptq1X9IVJlEmZQDNCyAURsM0DcF2qtvNBxAwwkjgFenBi0osmd/zaxm+KSSq9F0n6EIGDMH3ihzHhH8X+aSLbRfEpA23AhZd2u5pQ55HntJ1ihprd42OKnn4gKUsptWeHdgOXxCs2ashRy4e0k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQXVr1TAWq0LhP0lVDTfAkwzANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ATQBVAFIARABFAFIASQBOAEMAXABrAHIAbwB6AGkwHhcNMjYwNjI4MDE0OTU0WhcNMjcwNjI4MDc0OTU0WjApMScwJQYDVQQDHh4ATQBVAFIARABFAFIASQBOAEMAXABrAHIAbwB6AGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMZf2kfS6JFBPiKdCpNdZcrlUk6batV/SFSZRJmUAzQsgFEbDNA3BdqrbzQcQMMJI4BXpwYtKLJnf82sZvikkqvRdJ+hCBgzB94ocx4R/F/mki20XxKQNtwIWXdruaUOeR57SdYoaa3eNjip5+IClLKbVnh3YDl8QrNmrIUcuHtJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEADHOK9EU2iV0uQ6OJrSUCsMpxUhOoSR2Iqyw9F2ZyNEUha68MS5iNa1AGEWnQV3FCDG59p0Q0hcgduwUkGishFG29/ig9yhbQ1iZaxAVcF+nTF/6SqnNZyJTJa8sh7HKNTo3NQo82I53owGDPlISGoiUn2IMSZJKoM409JbYHZoY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
